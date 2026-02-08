@@ -1,6 +1,6 @@
 # Zuban pre-commit hooks
 
-Example for `pre-commit.yaml`:
+Example for `.pre-commit-config.yaml`:
 
 ```yaml
 repos:

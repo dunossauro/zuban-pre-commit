@@ -1,0 +1,20 @@
+- id: zuban
+  name: zuban check
+  description: Run zuban in default (auto-detected) mode
+  entry: zuban check
+  language: python
+  pass_filenames: false
+  require_serial: true
+  always_run: true
+  stages: [pre-commit, manual]
+
+
+- id: zmypy
+  name: zuban mypy
+  description: Run zuban in mypy-compatible mode
+  entry: zuban mypy
+  language: python
+  pass_filenames: false
+  require_serial: true
+  always_run: true
+  stages: [pre-commit, manual]

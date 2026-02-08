@@ -1,0 +1,6 @@
+[project]
+name = "zuban-pre-commit"
+version = "0.0.0"
+dependencies = [
+    "zuban==0.5.0",
+]

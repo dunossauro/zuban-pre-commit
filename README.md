@@ -5,7 +5,7 @@ Example for `.pre-commit-config.yaml`:
 ```yaml
 repos:
 - repo: https://github.com/dunossauro/zuban-pre-commit
-  rev: v0.5.1
+  rev: v0.6.0
   hooks:
     # for zuban check
     - id: zuban
@@ -28,7 +28,7 @@ Example for `prek.toml`:
 ```toml
 [[repos]]
 repo = "https://github.com/dunossauro/zuban-pre-commit"
-rev = "v0.5.1"
+rev = "v0.6.0"
 hooks = [
   { id = "zuban", args = ["--strict"] },            # default / auto-detected mode
   { id = "zmypy", args = ["--warn-unreachable"] },  # force mypy-compatible mode

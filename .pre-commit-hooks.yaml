@@ -1,6 +1,6 @@
 - id: zuban
   name: zuban check
-  description: Run zuban in default (auto-detected) mode
+  description: Run `zuban check` (default / auto-detected mode)
   entry: zuban check
   language: python
   pass_filenames: false
@@ -11,7 +11,7 @@
 
 - id: zmypy
   name: zuban mypy
-  description: Run zuban in mypy-compatible mode
+  description: Run `zuban mypy` (mypy-compatible mode)
   entry: zuban mypy
   language: python
   pass_filenames: false

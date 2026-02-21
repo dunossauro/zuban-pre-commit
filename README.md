@@ -15,7 +15,7 @@ repos:
       - id: zuban
         args: [--pretty]  # optional
 
-      # Run `zuban check` in mypy-compatible mode
+      # Run `zuban mypy`
       - id: zmypy
         args: [--warn-unreachable]  # optional
 ```

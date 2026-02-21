@@ -48,3 +48,8 @@ hooks = [
   { id = "zmypy", args = ["--warn-unreachable"] },  # force mypy-compatible mode
 ]
 ```
+
+## Hooks
+
+- `zuban`: runs `zuban check`
+- `zmypy`: runs `zuban mypy`

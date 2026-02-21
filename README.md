@@ -1,5 +1,7 @@
 # Zuban pre-commit hooks
 
+A pre-commit/prek hook for [zuban](https://github.com/zubanls/zuban).
+
 Example for `.pre-commit-config.yaml`:
 
 ```yaml
@@ -9,7 +11,7 @@ repos:
   hooks:
     # for zuban check
     - id: zuban
-      args: [ --strict ]  # optional
+      args: [ --pretty ]  # optional
     # for zuban mypy check
     - id: zmypy
       args: [ --warn-unreachable ]  # optional
@@ -30,7 +32,7 @@ Example for `prek.toml`:
 repo = "https://github.com/dunossauro/zuban-pre-commit"
 rev = "v0.6.0"
 hooks = [
-  { id = "zuban", args = ["--strict"] },            # default / auto-detected mode
+  { id = "zuban", args = ["--pretty"] },            # default / auto-detected mode
   { id = "zmypy", args = ["--warn-unreachable"] },  # force mypy-compatible mode
 ]
 ```

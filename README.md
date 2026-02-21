@@ -1,6 +1,6 @@
 # Zuban pre-commit hooks
 
-[Pre-commit](https://pre-commit.com/)/[Prek](https://prek.j178.dev/) hook for [Zuban](https://github.com/zubanls/zuban).
+[Pre-commit](https://pre-commit.com/) / [Prek](https://prek.j178.dev/) hook for [Zuban](https://github.com/zubanls/zuban).
 
 ## Using with `pre-commit`
 

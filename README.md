@@ -31,8 +31,10 @@ See the [configuration reference](https://docs.zubanls.com/en/latest/usage.html#
 
 > **Note**
 >
-> `zuban check` may run in default or mypy-compatible mode depending on your configuration.
-> Use the `zmypy` hook to explicitly force mypy-compatible behavior.
+> `zuban check` auto-detects its mode based on CLI flags and project configuration
+> (`[tool.zuban]`, `[tool.mypy]`, or `mypy.ini`).
+>
+> Use the `zmypy` hook to explicitly run `zuban mypy`.
 
 ## Using with `prek`
 

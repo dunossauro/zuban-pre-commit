@@ -2,5 +2,5 @@
 name = "zuban-pre-commit"
 version = "0.0.0"
 dependencies = [
-    "zuban==0.6.0",
+    "zuban==0.6.1",
 ]

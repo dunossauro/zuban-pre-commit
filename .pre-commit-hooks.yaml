@@ -3,9 +3,9 @@
   description: Run `zuban check` (default / auto-detected mode)
   entry: zuban check
   language: python
+  types_or: [python, pyi, jupyter]
   pass_filenames: false
   require_serial: true
-  always_run: true
   stages: [pre-commit, manual]
 
 
@@ -14,7 +14,7 @@
   description: Run `zuban mypy` (mypy-compatible mode)
   entry: zuban mypy
   language: python
+  types_or: [python, pyi, jupyter]
   pass_filenames: false
   require_serial: true
-  always_run: true
   stages: [pre-commit, manual]
